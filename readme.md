@@ -21,3 +21,9 @@ First we set all the weights to 0 or 1 (Let us say).
 Then we do a foward pass then we calculate the error. Then we do a backpropogation now here is what happens in this step all the weights are giving the same error and the neural network finds it difficult to see which node is contributing more error.
 
 The code explantaiton for this is shown in the _All Zeros or Ones_ Session in the notebook.
+
+## Uniform Random
+Uniform Distribution has equal probability of picking up any number from a set of numbers. So what we can do is use a uniform distribution of random numbers and use those as our weights and train the model and hence this will lead to out model causing mistakes and these mistakes would help the model to learn correctly.
+
+In the part of the notebook with titile _Uniform Distribution_ We can see the implementation of this in code and how the loss is decreasing over the epocs faster since the gradient descent is working properly.
+Also we can see we get improved performance when we look at the accuracy.
