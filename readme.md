@@ -1,0 +1,2 @@
+# Starting Strength
+_This_ repository will contain detailed explanation on weight initialisation for deep learning but the inspiration for the name of this repository comes from [this](https://www.athlegan.com/starting-strength) article that I was reading. If you are are into gains do check it out, If you are not please do exercise (This repo is written in 2020 when exercise is necessary for human beings). 
