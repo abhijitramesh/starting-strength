@@ -27,3 +27,9 @@ Uniform Distribution has equal probability of picking up any number from a set o
 
 In the part of the notebook with titile _Uniform Distribution_ We can see the implementation of this in code and how the loss is decreasing over the epocs faster since the gradient descent is working properly.
 Also we can see we get improved performance when we look at the accuracy.
+
+## General Rule
+
+If we learned something from both the above cases it is that we should never use 0 and 1 as constant weights and also we could use a uniform distribution as our weights. Well let us combile these two ideas and also a rule of thumb while selecting the weights would be to have tha values in the range -y to y, where y = 1/squareroot(n) where n is the number of nodes in network.
+
+Check out the part of the notebook with heading _General rule for setting weights_ to see how this tremendosly improve our performance the loss is not only decreasing but it is faster compared to the Uniform Random Distribution.
