@@ -33,3 +33,9 @@ Also we can see we get improved performance when we look at the accuracy.
 If we learned something from both the above cases it is that we should never use 0 and 1 as constant weights and also we could use a uniform distribution as our weights. Well let us combile these two ideas and also a rule of thumb while selecting the weights would be to have tha values in the range -y to y, where y = 1/squareroot(n) where n is the number of nodes in network.
 
 Check out the part of the notebook with heading _General rule for setting weights_ to see how this tremendosly improve our performance the loss is not only decreasing but it is faster compared to the Uniform Random Distribution.
+
+## Normal Distribution
+
+Another way to try out is to use a normal distribution by doing so there is a higher likelihood of picking number close to it's mean. Here also we would use a the general rule. 
+
+If you check out the notebook session _Normal Distribution_ you can see that the it has similar perfomance to uniform distribution but it starts out better this is probaby becuase the dataset we are using is small and if we use a bigger dataset the change would also be magnified.
