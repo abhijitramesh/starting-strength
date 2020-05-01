@@ -10,3 +10,14 @@ Similarly let us see what are the different techniques that we can apply to init
 We will be doing our reserch on Weight Initialisation using the Fashion MNIST dataset because it is the toy dataset good enough to test out all Image Classification Netoworks on its intial stages. We will be using an MLP here with 3 layers with hidden dimensions of 256 and 128. And also the MLP accepts inputs as flattended images and produces outputs with 10 class scores.
 
 checkout the network in the notebook above.
+
+## Constant Weights
+This is one way of initialising weights, what we do here is set a constant weights in all the nodes and train the network, but the problem is we would have a huge training loss. Why is this happening ?
+
+Well let us take a look under the hood.
+
+First we set all the weights to 0 or 1 (Let us say).
+
+Then we do a foward pass then we calculate the error. Then we do a backpropogation now here is what happens in this step all the weights are giving the same error and the neural network finds it difficult to see which node is contributing more error.
+
+The code explantaiton for this is shown in the _All Zeros or Ones_ Session in the notebook.
