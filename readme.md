@@ -39,3 +39,7 @@ Check out the part of the notebook with heading _General rule for setting weight
 Another way to try out is to use a normal distribution by doing so there is a higher likelihood of picking number close to it's mean. Here also we would use a the general rule. 
 
 If you check out the notebook session _Normal Distribution_ you can see that the it has similar perfomance to uniform distribution but it starts out better this is probaby becuase the dataset we are using is small and if we use a bigger dataset the change would also be magnified.
+
+## Automatic Initialisation
+
+In the notebook _Automatic Initialization_ shows how the model would train without any initialisation of weights that would be done by us to our suprise it is as good as our uniform distribution becuse if you checkout the source code for linear layers in pytorch you can understand that the weights are actually set by default with a unifrom distribution which might workout in some cases but in other we need to use Normal distribution or maybe even something else.
